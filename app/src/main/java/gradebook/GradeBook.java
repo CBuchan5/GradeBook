@@ -9,8 +9,10 @@ public class GradeBook {
             return 'B';
         }else if (getAverageScore >= 70){
             return 'C';
+        }else if (getAverageScore >=60) {
+            return 'D';
         }
-        return 'D';
+        return 'F';
     }
 
 }

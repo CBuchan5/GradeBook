@@ -25,5 +25,10 @@ public class GradeBookTest {
         GradeBook gradeBook = new GradeBook();
         assertEquals('D', gradeBook.getGrade(58,62,70));
     }
+    @Test
+    public void givenSetOf3ScoresOf4455520GetGradeWillBeF(){
+        GradeBook gradeBook = new GradeBook();
+        assertEquals('F', gradeBook.getGrade(44,55,52));
+    }
 
 }
