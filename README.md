@@ -1,4 +1,5 @@
 # Grade book
+8kyu [Grasshopper - Grade Book](https://www.codewars.com/kata/55cbd4ba903825f7970000f5)
 Complete the function so that it finds the average of the three scores passed to it and returns the letter value associated with that grade.
 
 ## Numerical Score	Letter Grade
